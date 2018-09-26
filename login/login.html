@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login function</title>
+
+</head>
+<body>
+
+<h1>Amazing login function</h1>
+<p>
+    <label for="username"><b>Username</b></label>
+    <input type="text" name="username" id="username"/><br>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" name="password" id="password"/>
+    <input type="password" name="repeatPW" id="repeatPW"/>
+    <input type="button" value="showPW" name="showPw" id="showPw" onmousedown="showPwFuncDown()"
+           onmouseup="showPwFuncUp()"/><br>
+
+    <label for="rememberme">Remember me?</label>
+    <input type="checkbox" name="rememberme" id="rememberme" checked/><br>
+
+    <input type="button" value="Login" name="submit" id="submit"/><input type="button" value="Create Account"
+                                                                         name="creataccount" id="creataccount"/>
+</p>
+
+<p>
+    <span id="loginResult">Please enter username and password</span>
+</p>
+<script src="./login.js"></script>
+</body>
+</html>
