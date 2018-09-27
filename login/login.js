@@ -13,6 +13,7 @@ function showPwFuncDown() {
     document.getElementById('repeatPW').type = "text";
 }
 
+
 function showPwFuncUp() {
     document.getElementById('password').type = "password";
     document.getElementById('repeatPW').type = "password";
