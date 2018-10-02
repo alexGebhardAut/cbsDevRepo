@@ -8,13 +8,13 @@ var output = "";
 for (var i = 0; i < size; i++) {
     //LOOP for each line
     for (var l = 0; l < size; l++) {
-        if (i % 2 != 0 && l % 2 != 0) {
+        if (i % 2 !== 0 && l % 2 !== 0) {
             output += charWS;
-        } else if (i % 2 != 0 && l % 2 == 0) {
+        } else if (i % 2 !== 0 && l % 2 === 0) {
             output += charHT;
-        } else if (i % 2 == 0 && l % 2 != 0) {
+        } else if (i % 2 === 0 && l % 2 !== 0) {
             output += charHT;
-        } else if (i % 2 == 0 && l % 2 == 0) {
+        } else if (i % 2 === 0 && l % 2 === 0) {
             output += charWS;
         }
     }
